@@ -81,10 +81,6 @@ p {
   padding: 60px 0;
 }
 
-nav .right li a{
-  color:black;
-}
-
 nav .right li a:link { text-decoration: none; color:#ffffff; } /* unvisited */
 nav .right li a:visited { color:#ffffff; } /* visited */
 nav .right li a:hover { color:#ffffff; } /* mouse over */
