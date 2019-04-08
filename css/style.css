@@ -1,35 +1,62 @@
 body {
-  background-color: #ff0000;
-  color: #0000FF;
+  background-color: #F7AF9D;
+  color: #4C5B61;
+  font-family: helvetica;
+  font-size: 16px;
 }
 
 nav {
-  background-color: rgba(0,0,0,.5);
+  background-color: #C08497;
   float: left;
   position: fixed;
   width: 100%;
 }
 
+header {
+font-size: .9em;
+padding-top: 20px;
+padding-bottom: 20px;
+}
+
+h1 {
+  font-size: 3em;
+  font-weight: bold;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 0px;
+}
+
+h3 {
+  font-size: 100%;
+  font-weight: normal;
+  font-style: italic;
+}
+
+.author {
+  line-height: 2em;
+  font-weight: lighter;
+}
+
 .logo {
+  background-image: url(images/bloc-logo.png);
   margin: 20px;
   width: 100px;
 }
 
-.large-pic {
-  width: 100%;
-}
-
 .medium-pic {
+  padding-top: 2em;
+  padding-bottom: .5em;
   width: 70%;
 }
 
-.left, .right {
+.left {
   float: left;
   width: 50%;
 }
 
 .right {
   float: right;
+  text-decoration: none;
 }
 
 ul {
@@ -42,11 +69,23 @@ li {
   padding: 30px;
 }
 
-article {
-  padding-top: 100px;
+p {
+  margin-top: .5em;
+  line-height: normal;
+  margin-bottom: 1em;
 }
 
 .container {
   margin: 0 auto;
-  width: 50%;
+  width: 55%;
+  padding: 60px 0;
 }
+
+nav .right li a{
+  color:black;
+}
+
+nav .right li a:link { text-decoration: none; color:#ffffff; } /* unvisited */
+nav .right li a:visited { color:#ffffff; } /* visited */
+nav .right li a:hover { color:#ffffff; } /* mouse over */
+nav .right li a:active { color:#ffffff; } /* selected */
